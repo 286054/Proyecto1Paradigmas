@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+
+    </style>
+ <link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 style="color:red; text-align:center;">Control de Mesas </h1>
+    <h></h>
+
+    <table style = "width:100%">
+        <thead>
+            <tr>
+                <td style="color:blue;">Mesa 1</td>
+                <td style="color:blue;">Mesa 2</td>
+                <td style="color:blue;">Mesa 3</td>
+            </tr>
+     </thead>
+
+
+        <tbody>
+            <tr>
+             <td>
+                 <p>
+                <img id ="pTable1" onclick="turnOnOff();" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime0">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime0>
+                    Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total0"></p>
+                 </p>
+            </td>
+             <td>
+                 <p>
+                <img id ="pTable2" onclick="turnOnOff1();" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime1">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime1>
+                  Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total1"></p>
+                 </p></td>
+             <td>
+                 <p>
+                <img id ="pTable3" onclick="turnOnOff2()" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime2">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime2>
+                  Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total2"></p>
+                 </p></td></td>
+            </tr>
+
+         <tr>
+             <td style="color:blue;">Mesa 4</td>
+             <td style="color:blue;">Mesa 5</td>
+             <td style="color:blue;">Mesa 6</td>
+
+         </tr>
+
+          <tr>
+            <td>
+                <p>
+                <img id ="pTable4" onclick="turnOnOff3()" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime3">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime3>
+                  Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total3"></p>
+                 </p></td></td>
+            <td>
+                <p>
+                <img id ="pTable5" onclick="turnOnOff4()" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime4">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime4>
+                  Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total4"></p>
+                 </p></td></td>
+            <td>
+                <p>
+                <img id ="pTable6" onclick="turnOnOff5()" src="images/off.png" width="197" height="295">
+                 </p>
+                 <p id = "sTime5">
+                    Hora de inicio:
+                 </p>
+                 <p id = eTime5>
+                  Hora de final:
+                 </p>
+                 <p>
+                    Total:<p id = "total5"></p>
+                 </p></td></td>
+
+           </tr>
+        </tbody>
+    </table>
+    <hr></hr>
+
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
